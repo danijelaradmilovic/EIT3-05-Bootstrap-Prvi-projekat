@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+
+/* Za potrebe grid.html strane skloniti komentar zakljucno sa 35. linijom. Na taj nacin se lakse uocavaju detalji koji se odnose na grid. Linije su zakomentarisane zbog ostalih strana koje su ovom projektu uradjene. */
+/* .container, .container-fluid {
+    background-color: hotpink;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 1rem;
+}
+[class*='con'] {
+    background-color: hotpink;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 1rem;
+}
+.col {
+    background-color: aqua;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+[class*='col'] {
+    background-color: aqua;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.red {
+    background-color: red;
+} */
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+}
+.bg-aqua {
+    background-color: aqua;
+}
+.my-container {
+    padding: 0;  
+}
+.my-thumb {
+    width: 40%;
+}
+.btn-aqua {
+    background-color: aqua;
+    border-color: aqua;
+}
+.btn-aqua:hover {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid aqua
+}
+/* ***** Slider ***** */
+.my-carousel .carousel-item {
+    height: 200px;
+}
+.my-carousel .carousel-item img {
+    min-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.my-carousel .carousel-item .carousel-caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.my-carousel .carousel-item .carousel-caption h5 {
+    color: red;
+}
+/* ***** Icons ***** */
+.my-icon {
+    font-size: 30rem;
+    color: red;  
+    transition: all .5s ease-in-out;    
+}
+.my-icon:hover {
+    color: #333;
+}

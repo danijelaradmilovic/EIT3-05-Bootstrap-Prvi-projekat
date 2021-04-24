@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 - Navbar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bootstrap 5 - Navbar</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-aqua">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <hr>
+      <div class="container">
+          <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link active">Link1</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link4</a></li>
+          </ul>
+      </div>  
+      <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link active">Link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link4</a></li>
+        </ul>
+    </div>  
+    <div class="container">
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link active">Link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link4</a></li>
+        </ul>
+    </div>  
+    <div class="container">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link active">Link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Link4</a></li>
+        </ul>
+    </div> 
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloremque eveniet molestiae dolore corrupti deserunt porro reprehenderit atque, nemo eaque dicta neque obcaecati, quas deleniti vitae sit voluptates id odio autem expedita eos quasi nisi? Laboriosam voluptatem ducimus ad, exercitationem minima tempora, molestias eum deleniti reprehenderit quidem sed? Libero quibusdam nemo blanditiis voluptatibus autem corporis, impedit corrupti iure reprehenderit rem consequatur ducimus, excepturi at ut magnam! Eaque corporis repellat tenetur hic deleniti, distinctio similique nobis. Voluptas inventore ex corporis? Ex fuga ipsa corporis delectus voluptatum aspernatur, ipsam eius officiis suscipit obcaecati necessitatibus, repellendus reprehenderit. Adipisci minus ea omnis eaque repudiandae.</p></div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, doloremque non voluptatibus itaque consequuntur consequatur atque eum quo cum rem. Enim beatae sunt est! Explicabo sit quis molestiae reiciendis dolore excepturi sunt cupiditate optio, in error fugit, tenetur aliquam qui velit eligendi? Ullam libero error, omnis corrupti id deleniti? Ipsa nisi vel beatae eaque voluptatibus quibusdam error sequi, quae at quidem totam praesentium unde consequatur asperiores quos officiis. Libero culpa molestiae consequatur, eum odio quisquam dignissimos mollitia maxime! Ducimus ipsam fuga, cumque aut nemo commodi excepturi at ex a. Maiores itaque nemo rem veritatis obcaecati repellat illum nisi soluta.</p></div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis dolorem sequi, perspiciatis atque aliquam, saepe consequuntur reiciendis adipisci nulla quibusdam excepturi ut! Sapiente, quibusdam corrupti vitae vel sint, aperiam recusandae ducimus natus asperiores, quaerat non consectetur tempora a dicta aliquid. A inventore vel aperiam totam officia accusamus incidunt. Dicta quasi debitis adipisci odio. Impedit, vel saepe earum est dolor atque non dolorem illo mollitia ratione minus possimus commodi dicta cupiditate odit rem et voluptatem aut, voluptatum molestias quasi odio quis aspernatur autem? Consectetur nobis dicta neque in enim ipsa corporis, saepe accusantium quasi vitae incidunt magnam quae ex hic consequuntur.</p></div>
+      </div>
+      <hr>
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</buttona>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+        </div>
+      </div>      
+          
+    <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html> 
